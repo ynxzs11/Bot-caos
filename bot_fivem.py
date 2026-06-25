@@ -4,7 +4,8 @@ from discord.ui import Modal, TextInput, View
 import random
 
 # --- CONFIGURAÇÕES ---
-TOKEN = 'MTQwNzgyNjY5MzgyNTIzMzAyNw.GCM0XI.OH-MYMg1wv0u5NOXApqVJLffOYkF-mZhgm9OFw' # RECOLOQUE SEU TOKEN AQUI
+import os
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 # IDs (Certifique-se de preencher os valores corretos)
 ID_CARGO_MEMBRO = 1518620698959151324
